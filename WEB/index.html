@@ -42,9 +42,11 @@
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">INICIO</a>
             </li>
+
             <li class="nav-item">
               <a class="nav-link" href="#">CLIENTES</a>
             </li>
+
             <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
@@ -56,14 +58,26 @@
                 SERVIÇOS
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Desenvolvimento de Sites</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Desenvolvimento de Sites</a>
+                </li>
                 <li><hr class="dropdown-divider" /></li>
-                <li><a class="dropdown-item" href="#">Criação de Newsletters</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Criação de Newsletters</a>
+                </li>
                 <li><hr class="dropdown-divider" /></li>
                 <li><a class="dropdown-item" href="#">Otimização de SEO</a></li>
                 <li><hr class="dropdown-divider" /></li>
                 <li><a class="dropdown-item" href="#">Design Gráfico</a></li>
               </ul>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">SOBRE NÓS</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">CONTATO</a>
             </li>
           </ul>
           <form class="d-flex" role="search">
@@ -85,7 +99,13 @@
       <form action="/cadastrar" method="post">
         <div class="flex-box-one">
           <label for="nome">NOME</label>
-          <input type="text" id="nome" name="nome" required placeholder="NOME" />
+          <input
+            type="text"
+            id="nome"
+            name="nome"
+            required
+            placeholder="NOME"
+          />
           <label for="telefone">TELEFONE</label>
           <input
             type="tel"
